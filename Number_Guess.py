@@ -17,6 +17,7 @@ guesses = 0
 while True:
     guesses += 1
     guess = input("Make a guess:")
+    
     if guess.isdigit():
        guess=int(guess) 
     else:
